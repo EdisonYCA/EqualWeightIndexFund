@@ -31,4 +31,4 @@ for batch calls, which allowed me to call only have to call 5 requests when spli
 ![image](https://user-images.githubusercontent.com/116458652/205455578-4a6d8bcd-c811-4f8f-8abd-0e4314260c5b.png)
 ![image](https://user-images.githubusercontent.com/116458652/205455598-d3819795-51a6-4030-9ade-92ff9f62b01e.png)
 
-**This program was created with the help of the Algorithim Trading Using Python Course from freeCodeCamp.org***
+*This program was created with the help of the Algorithim Trading Using Python Course from freeCodeCamp.org*
