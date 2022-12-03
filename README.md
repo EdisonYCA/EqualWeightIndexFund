@@ -21,7 +21,7 @@ As mentioned, one of the modifications that can be made to improve this program 
 An improvement that can be to improve the readability of this code, is to remove lines **15-19, 32, and 33.** Essentially, these lines of code added the first stock data into the
 pandas dataframe (which contains the tabular format of the data) which can all be done in one fell swoop using a for-loop. However, I faced some issues using the **.append**
 method from the pandas library; I consistently got future-warnings. I found that the best way to remedy this was to use the **.concat** before the foor-loop on the data of
-the first ticker, and then add the remaining data.
+the first stock, and then add the remaining data.
 
 Lastly, a challenge faced was that the data gathering of each ticker using HTTP requests was incredibly slow when doing one ticker at a time. However, the IEX Cloud API allowed
 for batch calls, which allowed me to call only have to call 5 requests when splitting the stocks into sublists of 100 length each. As a result, this program became 5x more efficent.
