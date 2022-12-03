@@ -13,7 +13,7 @@ The Python script preforms this functionality in three steps:
 Something else to note is that the *.csv* file containing the S&P 500 stocks is hard-coded, therefore the user can only use the stocks in this index. However, this program can
 certainly be modified to prompt the user to enter the name of their own csv file containing the specific index they'd like to track. 
 
-As a final note, the stock, stock price, market capilization, and number of shares to buy were formatted using the ```pandas``` which provided an easy strucure for this data
+As a final note, each stock, stock price, market capilization, and number of shares to buy were formatted using the ```pandas``` which provided an easy strucure for this data
 to be neatly formatted.
 
 As mentioned, one of the modifications that can be made to improve this program is the ability for the user to enter their own S&P 500 index that they'd like to track. 
