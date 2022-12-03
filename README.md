@@ -10,7 +10,7 @@ The Python script preforms this functionality in three steps:
  It's important to note that I used the free version of the IEX Cloud API. Thus, all of the data gathered for each stock price are *not* accucurate and are generated. Nevertheless,
  this limitation isn't an issue, as the program would function properly and accurately with real stock prices. 
 
-Something else to note is that the *.csv* file containing the sp_500_stocks is hard-coded, therefore the user can only use the stocks in this index. However, this program can
+Something else to note is that the *.csv* file containing the S&P 500 stocks is hard-coded, therefore the user can only use the stocks in this index. However, this program can
 certainly be modified to prompt the user to enter the name of their own csv file containing the specific index they'd like to track. 
 
 As a final note, the stock, stock price, market capilization, and number of shares to buy were formatted using the ```pandas``` which provided an easy strucure for this data
