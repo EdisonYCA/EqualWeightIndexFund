@@ -23,7 +23,7 @@ pandas dataframe (which contains the tabular format of the data) which can all b
 method from the pandas library; I consistently got future-warnings. I found that the best way to remedy this was to use the **.concat** before the foor-loop on the data of
 the first stock, and then add the remaining data.
 
-Lastly, a challenge faced was that the data gathering of each ticker using HTTP requests was incredibly slow when doing one ticker at a time. However, the IEX Cloud API allowed
+Lastly, a challenge faced was that the data gathering of each stock using HTTP requests was incredibly slow when doing one stock at a time. However, the IEX Cloud API allowed
 for batch calls, which allowed me to call only have to call 5 requests when splitting the stocks into sublists of 100 length each. As a result, this program became 5x more efficent.
 
 ```/EqualWeightIndexFund/equal_weight_s&p_500.py``` contains the source code for this program. *Please keep in mind that if you'd like to run this program, a free secret IEX Cloud API Token is required.*
