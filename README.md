@@ -7,7 +7,7 @@ The Python script preforms this functionality in three steps:
   2. Retrieve the users portfolio amount
   3. Calculate the amount of shares to buy and format the output to ```recommended trades.xlsx```
  
- It's important to note that I used the free version of the IEX Cloud API. Thus, all of the data gathered for each stock price and *not* accucurate and are generated. Nevertheless,
+ It's important to note that I used the free version of the IEX Cloud API. Thus, all of the data gathered for each stock price are *not* accucurate and are generated. Nevertheless,
  this limitation isn't an issue, as the program would function properly and accurately with real stock prices. 
 
 Something else to note is that the *.csv* file containing the sp_500_stocks is hard-coded, therefore the user can only use the stocks in this index. However, this program can
